@@ -7,7 +7,7 @@ $title = "Penguin Home Improvement ";
 } 
 if($description == null)
 {
-$description = ""
+$description = "";
 }
 if(file_exists("websiteinfo.php"))
 {
