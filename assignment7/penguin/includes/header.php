@@ -7,7 +7,7 @@ $title = "Penguin Home Improvement";
 } 
 if($page == null)
 {
-$title = "home";
+$page = "home";
 } 
 if($description == null)
 {
@@ -38,5 +38,6 @@ include"websiteinfo.php";
 <img id = "logo" src = "img/placeholder_logo.png" alt="Penguin Home Improvement Logo" />
 </section>
 <?include 'includes/menu.php'?>
+<p class = "phone_number">802-238-1691</p>
 </header>
 
