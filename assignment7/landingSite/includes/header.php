@@ -23,11 +23,9 @@ include"websiteinfo.php";
 
 
 
-<link rel="stylesheet"
-	  href="style.css"
-	  type="text/css"
-	  media="screen" />
-<script type="text/javascript" src="javascript.js"></script>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
 </head>
 
 <body>

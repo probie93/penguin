@@ -1,0 +1,114 @@
+/**************************************************************************
+                                   HEADER
+**************************************************************************/
+body{
+	width:60%;
+	margin:auto;
+	background-color:black;
+}
+header#header{
+	position:relative;
+	z-index:5;
+	width:20%;
+	height:100%;
+	border:blue solid 1px;
+	float:left;
+	margin-right:2em;
+	padding:2em;
+	border-radius:25px;
+	box-shadow: 5px 5px 2px 5px #737373;
+	background-color:blue;
+}
+header#header nav ul{
+	font-size:2.5em;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+header#header nav ul li{
+	border-top:black solid 1px;
+}
+header#header nav ul li:last-child{
+	border-bottom:black solid 1px;
+}
+header#header nav ul li a{
+	text-decoration:none;
+	color:black;	
+}
+header#header nav ul li a:visited{
+	text-decoration:none;
+	color:black;
+	
+}
+header#header nav ul li a:hover{
+	text-decoration:none;
+	color:black;
+	
+}
+header#header nav ul li a:active{
+	text-decoration:none;
+	color:black;
+	
+}
+a:link {color:#FF0000;}      /* unvisited link */
+a:visited {color:#00FF00;}   /* visited link */
+a:hover {color:#FF00FF;}     /* mouse over link */
+a:active {color:#0000FF;}    /* selected link */
+section#main_container{
+	position:relative;
+	z-index:0;
+	border:red solid 1px;
+	padding:2em 2em 0em 2em;
+	border-radius:25px;
+	background-color:orange;
+}
+
+img#logo{
+	width:100%;
+	height:auto;
+}
+img#main_image{
+	height:200px;
+	width:600px;
+	margin:auto;
+	display:block;
+}
+article#show_off_holder{
+	width:71%;
+	float:right;
+}
+section.show_off_container{
+	width:27%;
+	margin:1em;
+	float:left;
+	border:black solid 1px;
+	border-radius:25px;
+}
+img.show_off_image{
+	width:100%;
+	height:auto;
+}
+h3.show_off_title{
+	text-align:center;
+}
+p.show_off_description{
+	padding:1em;
+}
+.clearFix{
+	clear:both;
+}
+@media screen and (max-width: 1600px){
+	body{
+		width:70%
+	}
+}
+@media screen and (max-width: 1400px){
+	body{
+		width:85%
+	}
+}
+@media screen and (max-width: 1200px){
+	body{
+		width:100%
+	}
+}
