@@ -5,7 +5,16 @@ body{
 	width:60%;
 	margin:auto;
 	background-color:black;
+	padding:1em;
 }
+h1{
+	font-size:3em;
+}
+h2{
+	font-size:2.5em;
+}
+h3{
+	font-size:2em;
 }
 a:link {color:#FF0000;}      /* unvisited link */
 a:visited {color:#00FF00;}   /* visited link */
@@ -19,13 +28,12 @@ header#header{
 	z-index:5;
 	width:20%;
 	height:100%;
-	border:blue solid 1px;
 	float:left;
 	margin-right:2em;
 	padding:2em;
 	border-radius:25px;
 	box-shadow: 5px 5px 2px 5px #737373;
-	background-color:blue;
+	background-image:url("../img/woodfine.png");
 }
 header#header nav ul{
 	font-size:2.5em;
@@ -50,7 +58,7 @@ header#header nav ul li a:visited{
 }
 header#header nav ul li a:hover{
 	text-decoration:none;
-	color:black;
+	color:white;
 	
 }
 header#header nav ul li a:active{
@@ -58,12 +66,28 @@ header#header nav ul li a:active{
 	color:black;
 	
 }
+header#header nav ul li.is-active a{
+	text-decoration:none;
+	color:white;
+	
+}
 p.phone_number{
-	font-size:2.5em;
+	font-size:2em;
 }
 img#logo{
 	width:100%;
 	height:auto;
+}
+p#show_more_services{
+	float:right;
+	font-size:2em;
+	margin:0em;
+}
+p#show_more_services a{
+	color:black;
+}
+p#show_more_services a:hover{
+	color:white;
 }
 /**************************************************************************
                         Main Style Shared Across Pages
@@ -90,7 +114,7 @@ body#home article#show_off_holder{
 	float:right;
 }
 body#home section.show_off_container{
-	width:27%;
+	width: 44%;
 	margin:1em;
 	float:left;
 	border:black solid 1px;
@@ -107,10 +131,136 @@ body#home p.show_off_description{
 	padding:1em;
 }
 /**************************************************************************
+                               Services
+**************************************************************************/
+body#services h1#main_title{
+	font-size:2em;
+}
+body#services article#services_holder{
+	width:71%;
+	float:right;
+}
+body#services section.service_container{
+	width: 100%;
+	margin:1em;
+	border:black solid 1px;
+}
+body#services img.service_image{
+	width:33%;
+	height:auto;
+	float:left;
+}
+body#services h3.service_title{
+	width:63%;
+	text-align:center;
+	float:left;
+}
+body#services p.service_description{
+	width:60%;
+	padding:1em;
+	padding-top:0em;
+	float:left;
+	margin:0em;
+}
+/**************************************************************************
+                               Contact Us
+**************************************************************************/
+#service_area{
+	margin:2em;
+}
+#area_covered{
+	float:right;
+}
+#googft-mapCanvas {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  float:right;
+  border-radius:20px;
+}
+#map_canvas {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  float:right;
+  border-radius:20px;
+}
+#area_covered{
+	margin-right:1em;
+}
+#area_include{
+	margin:0;
+}
+#address_holder{
+	font-size:1.5em;
+	float:right;
+	margin-left:2em;
+}
+div#email_phone{
+	float:right;
+	font-size:1.5em;
+	margin-right:1.5em;
+}
+div#email_phone p{
+	margin-top: 1.4em;
+}
+div#email_phone a{
+	color:black;
+}
+div#email_phone a:hover{
+	color:white;
+}
+div#contact_holder{
+	width:70%;
+	float:right;
+}
+p#social_media{
+	float:right;
+	margin-right:10%;
+}
+p#social_media a#facebook_link{
+	background-color:#3b579d;
+	width:220px;
+	height:50px;
+	display:inline-block;
+	border-radius:20px;
+	margin-bottom: 1em;
+}
+p#social_media a#facebook_link img{
+	width:200px;
+	height:50px;
+	border-radius:20px 0px 0px 20px;
+}
+
+section#contact_form{
+}
+form#contact{
+	font-size:1.75em;
+	margin-left: 40%;
+}
+form#contact input{
+	font-size:1em;
+}
+form#contact textarea{
+	font-size:.75em;
+}
+form#contact fieldset{
+	border:0;
+}
+
+/**************************************************************************
                                Helper Classes
 **************************************************************************/
 .clearFix{
 	clear:both;
+}
+.clearRight{
+	clear:right;
+}
+.center{
+	text-align:center;
 }
 /**************************************************************************
                                Responsive Design

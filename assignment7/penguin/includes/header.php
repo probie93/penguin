@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<? if($title == null)
+<?
+if($title == null)
 {
 $title = "Penguin Home Improvement";
 } 
-if($page == null)
+if($page == null || $page == "mainIndex")
 {
 $page = "home";
 } 
@@ -29,6 +30,7 @@ include"websiteinfo.php";
 
 <link rel="stylesheet" href="css/penguin.css" type="text/css" media="screen" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&amp;v=3"></script>
 <script type="text/javascript" src="js/penguin.js"></script>
 </head>
 
