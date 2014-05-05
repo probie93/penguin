@@ -112,11 +112,45 @@ section#main_container{
 	box-shadow: 5px 5px 2px 5px #737373;
 	background-color: rgba(229, 233, 240, .7);
 }
+h2#logo_penguin{
+	display: inline-block;
+	position: absolute;
+	left: 57%;
+	top: 3%;
+	-moz-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+h3#logo_home{
+	display: inline-block;
+	position: absolute;
+	left: 51%;
+	top: 6%;
+	-moz-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+img#main_roof{
+	position: absolute;
+	left: 51%;
+	top: 3%;
+	-moz-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
 img#main_image{
 	height:200px;
 	width:600px;
 	margin:auto;
 	display:block;
+	border-radius:25px;
 }
 /**************************************************************************
                                Home Page
@@ -130,7 +164,6 @@ body#home section.show_off_container{
 	margin:1em;
 	float:left;
 	border:black solid 1px;
-	border-radius:25px;
 	background-color: rgba(229, 233, 240, .7);
 }
 body#home img.show_off_image{
@@ -147,7 +180,8 @@ body#home p.show_off_description{
                                Services
 **************************************************************************/
 body#services h1#main_title{
-	font-size:2em;
+	margin-bottom:0em;
+	margin-top:0em;
 }
 body#services article#services_holder{
 	width:71%;
@@ -181,6 +215,7 @@ body#services p.service_description{
 **************************************************************************/
 body#contact h1{
 	margin-bottom:0em;
+	margin-top:0em;
 }
 #service_area,section#address_container,section#contact_container,section#contact_form{
 	width:67%;
@@ -295,6 +330,6 @@ form#contact fieldset{
 }
 @media screen and (max-width: 1200px){
 	body{
-		width:100%
+		width:96%
 	}
 }
