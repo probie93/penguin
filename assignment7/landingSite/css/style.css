@@ -1,0 +1,138 @@
+body{
+	width:60%;
+	margin:auto;
+}
+.no_show{
+	display:none;
+}
+.show{
+	display:block;
+}
+.middle{
+	margin:auto;
+}
+.clear{
+	clear:both;
+}
+.float_left{
+	float:left;
+}
+.site{
+	width:90%;
+	margin:auto;
+}
+nav.main_nav{
+	width: 54%;
+	display: inline;
+}
+.template_links_holder{
+	list-style:none;
+	color:white;
+}
+.template_links_holder li{
+	display:inline;
+	padding:3px;
+}
+.template_links_holder li a:visited{
+	color:white;
+}
+.site_description{
+	text-indent:1em;
+}
+.video_container{
+	background-color:darkblue;
+	border-radius:25px;
+	width:47%;
+	height:450px;
+	margin:.5%;
+}
+.small_video{
+	width:90%;
+	margin:auto;
+}
+.small_video_iframe{
+	width: 100%;
+	height: 300px;
+	border:0;
+}
+.video_container_holder{
+}
+.link_holder{
+	color:white;
+}
+.link_holder li a{
+	color:white;
+}
+
+.link_holder li a:link {color:white;}      /* unvisited link */
+.link_holder li a:visited {color:white;}   /* visited link */
+.link_holder li a:hover {color:white;}     /* mouse over link */
+.link_holder li a:active {color:white;}    /* selected link */
+.template_links_holder li a:link {color:white;}      /* unvisited link */
+.template_links_holder li a:visited {color:white;}   /* visited link */
+.template_links_holder li a:hover {color:white;}     /* mouse over link */
+.template_links_holder li a:active {color:white;}    /* selected link */
+.video_title{
+	text-align:center;
+	font-size:120%;
+	color:white;
+}
+h1,h2{
+	display:inline;
+	font-size:120%;
+}
+h1.round{
+	font-size:3em;
+	margin-top:2em;
+	display:block;
+	text-align:center;
+}
+h3{
+	text-indent:1em;
+	font-size:100%;
+	margin:0;
+}
+header{
+	background-color:darkblue;
+	color:white;
+	line-height:90%;
+	padding:1%;
+	border-radius:25px;
+}
+header div{
+	width: 45%;
+	float:left;
+}
+.site{
+	width:90%;
+	line-height:90%;
+	padding:.5%;
+}
+@media (max-width: 1400px) {
+  nav.main_nav{
+	width:inherit;
+	display:block;
+
+  }
+}
+.clearFix{
+	clear:both;
+}
+/**************************************************************************
+                               Responsive Design
+**************************************************************************/
+@media screen and (max-width: 1600px){
+	body{
+		width:70%
+	}
+}
+@media screen and (max-width: 1400px){
+	body{
+		width:85%
+	}
+}
+@media screen and (max-width: 1200px){
+	body{
+		width:100%
+	}
+}

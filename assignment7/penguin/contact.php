@@ -10,7 +10,7 @@ include 'includes/header.php'?>
       viewport.setAttribute('content', 'initial-scale=1.0, user-scalable=no');
     }
     var mapDiv = document.getElementById('googft-mapCanvas');
-    mapDiv.style.width = isMobile ? '100%' : '40%';
+    mapDiv.style.width = isMobile ? '100%' : '58%';
     mapDiv.style.height = isMobile ? '100%' : '300px';
     var map = new google.maps.Map(mapDiv, {
       center: new google.maps.LatLng(44.42760638104056, -72.92808394531255),
@@ -92,7 +92,7 @@ include 'includes/header.php'?>
 		<div class = "clearRight"></div>
 	</section>
 	<section id = "contact_holder">
-		<section id = "address">
+		<section id = "address_container">
 			<h2>We are located at:</h2>
 			<div id = "address_holder">
 				<span id = "street">PO Box 585</span><br>
@@ -104,7 +104,7 @@ include 'includes/header.php'?>
 			<div id="map_canvas"></div>
 			<div class = "clearRight"></div>
 		</section>
-		<section>
+		<section id = "contact_container">
 			<h2>Contact:</h2>
 			<div id = "contact_holder">
 				<p id ="social_media">

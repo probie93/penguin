@@ -4,8 +4,12 @@
 body{
 	width:60%;
 	margin:auto;
-	background-color:black;
 	padding:1em;
+	background: url(../img/forest.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 h1{
 	font-size:3em;
@@ -15,6 +19,8 @@ h2{
 }
 h3{
 	font-size:2em;
+	margin-top:.5em;
+	margin-bottom:.5em;
 }
 a:link {color:#FF0000;}      /* unvisited link */
 a:visited {color:#00FF00;}   /* visited link */
@@ -89,16 +95,22 @@ p#show_more_services a{
 p#show_more_services a:hover{
 	color:white;
 }
+p #menu_phone{
+	color:darkgreen;
+}
+p #menu_phone:hover{
+	color:white;
+}
 /**************************************************************************
                         Main Style Shared Across Pages
 **************************************************************************/
 section#main_container{
 	position:relative;
 	z-index:0;
-	border:red solid 1px;
 	padding:2em 2em 0em 2em;
 	border-radius:25px;
-	background-color:orange;
+	box-shadow: 5px 5px 2px 5px #737373;
+	background-color: rgba(229, 233, 240, .7);
 }
 img#main_image{
 	height:200px;
@@ -119,6 +131,7 @@ body#home section.show_off_container{
 	float:left;
 	border:black solid 1px;
 	border-radius:25px;
+	background-color: rgba(229, 233, 240, .7);
 }
 body#home img.show_off_image{
 	width:100%;
@@ -141,9 +154,10 @@ body#services article#services_holder{
 	float:right;
 }
 body#services section.service_container{
-	width: 100%;
+	width: 96%;
 	margin:1em;
 	border:black solid 1px;
+	background-color: rgba(229, 233, 240, .7);
 }
 body#services img.service_image{
 	width:33%;
@@ -165,8 +179,19 @@ body#services p.service_description{
 /**************************************************************************
                                Contact Us
 **************************************************************************/
-#service_area{
-	margin:2em;
+body#contact h1{
+	margin-bottom:0em;
+}
+#service_area,section#address_container,section#contact_container,section#contact_form{
+	width:67%;
+	background-color: rgba(229, 233, 240, .7);
+	border:black solid 1px;
+	float:right;
+	padding:1em;
+	margin-top:1em;
+}
+#service_area h2{
+	margin-top:0em;
 }
 #area_covered{
 	float:right;
@@ -175,7 +200,7 @@ body#services p.service_description{
   height: 300px;
   margin: 0;
   padding: 0;
-  width: 40%;
+  width: 58%;
   float:right;
   border-radius:20px;
 }
@@ -183,7 +208,7 @@ body#services p.service_description{
   height: 300px;
   margin: 0;
   padding: 0;
-  width: 40%;
+  width: 58%;
   float:right;
   border-radius:20px;
 }
@@ -212,10 +237,6 @@ div#email_phone a{
 div#email_phone a:hover{
 	color:white;
 }
-div#contact_holder{
-	width:70%;
-	float:right;
-}
 p#social_media{
 	float:right;
 	margin-right:10%;
@@ -233,12 +254,9 @@ p#social_media a#facebook_link img{
 	height:50px;
 	border-radius:20px 0px 0px 20px;
 }
-
-section#contact_form{
-}
 form#contact{
 	font-size:1.75em;
-	margin-left: 40%;
+	margin-left: 5%;
 }
 form#contact input{
 	font-size:1em;

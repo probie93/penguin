@@ -40,6 +40,6 @@ include"websiteinfo.php";
 <img id = "logo" src = "img/placeholder_logo.png" alt="Penguin Home Improvement Logo" />
 </section>
 <?include 'includes/menu.php'?>
-<p class = "phone_number">802-238-1691</p>
+<p class = "phone_number">Call Us NOW! <br><a id = "menu_phone" href="tel:+1-802-238-1691">802-238-1691</a></p>
 </header>
 
