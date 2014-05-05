@@ -21,19 +21,6 @@ include 'includes/header.php'?>
     </script>
 <section id = "main_container">
 	<h1 id = "main_title" class = "center">Contact Us</h1>
-	<section id = "contact_holder">
-		<section id = "address_container">
-			<h2>We are located at:</h2>
-			<div id = "address_holder">
-				<span id = "street">PO Box 585</span><br>
-				<span id = "town">Winooski,</span>
-				<span id = "state">Vermont</span><br>
-				<span id = "country">USA</span>
-				<span id = "zip">05404</span>
-			</div>
-			<div id="map_canvas"></div>
-			<div class = "clearRight"></div>
-		</section>
 		<section id = "contact_container">
 			<h2>Contact:</h2>
 			<div id = "social_contact_holder">
@@ -46,6 +33,19 @@ include 'includes/header.php'?>
 					<p id = "telephone"><a href="tel:+1-802-238-1691">802-238-1691</a></p>
 				</div>
 			</div>
+			<div class = "clearRight"></div>
+		</section>
+	<section id = "contact_holder">
+		<section id = "address_container">
+			<h2>We are located at:</h2>
+			<div id = "address_holder">
+				<span id = "street">PO Box 585</span><br>
+				<span id = "town">Winooski,</span>
+				<span id = "state">Vermont</span><br>
+				<span id = "country">USA</span>
+				<span id = "zip">05404</span>
+			</div>
+			<div id="map_canvas"></div>
 			<div class = "clearRight"></div>
 		</section>
 		<section id = "contact_form_holder">

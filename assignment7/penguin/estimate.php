@@ -2,32 +2,42 @@
 include 'includes/header.php';
 $services = array(
 				1 => array(
-							'title'=>'Service',
+							'title'=>'Custom Furniture',
 							'image'=>'placeholder.jpg',
 							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
 					 ),
 				2 => array(
-							'title'=>'Service',
+							'title'=>'Sheds & Outbuildings',
 							'image'=>'placeholder.jpg',
 							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
 					 ),
 				3 => array(
-							'title'=>'Service',
+							'title'=>'Handyman Service',
 							'image'=>'placeholder.jpg',
 							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
 					 ),
 				4 => array(
-							'title'=>'Service',
+							'title'=>'Painting',
 							'image'=>'placeholder.jpg',
 							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
 					 ),
 				5 => array(
-							'title'=>'Service',
+							'title'=>'Cabinets',
 							'image'=>'placeholder.jpg',
 							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
 					 ),
 				6 => array(
-							'title'=>'Service',
+							'title'=>'Bulit-Ins',
+							'image'=>'placeholder.jpg',
+							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
+					 ),	
+				7 => array(
+							'title'=>'Countertops',
+							'image'=>'placeholder.jpg',
+							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
+					 ),
+				8 => array(
+							'title'=>'Floors',
 							'image'=>'placeholder.jpg',
 							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
 					 ),
