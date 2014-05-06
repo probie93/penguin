@@ -340,12 +340,23 @@ form#estimate_form fieldset{
 }
 .about_title{
 	transition: all 10s ease-in-out;
+	width:initial;
 }
 .about_description{
 	transition: all 10s ease-in-out;
+	width:initial;
 }
 .about_image{
 	transition: all 10s ease-in-out;
+	width:initial;
+}
+#penguin_image{
+	width:300px;
+}
+.hide{
+	width:0px;
+	height:0px;
+	display:none;
 }
 /**************************************************************************
                                Helper Classes
@@ -387,5 +398,28 @@ form#estimate_form fieldset{
 @media screen and (max-width: 1200px){
 	body{
 		width:96%
+	}
+}
+@media screen and (max-width: 1000px){
+	body#home article#show_off_holder{	
+		width:96%;
+		float:none;
+	}
+	body#home section.show_off_container{
+	width: 65%;
+	margin:1em;
+	border:black solid 1px;
+	background-color: rgba(229, 233, 240, .7);
+	}
+	body#home img.show_off_image{
+		width:300px%;
+		height:250px;
+	}
+	#img#main_image{
+		width:300px;
+	}
+	header#header{
+		width: 0px;
+		display: none;
 	}
 }

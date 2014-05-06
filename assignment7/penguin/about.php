@@ -4,7 +4,7 @@ include 'includes/header.php'?>
 $aboutUs = array(
 				1 => array(
 							'title'=>'Penguin Home Improvement LLC',
-							'image'=>'placeholder.jpg',
+							'image'=>'PenGuinTextAnimal.png',
 							'description'=>'After meeting at the University of Vermont, Zach Gavell & Liam Mahabir started Penguin Home Improvement and Repair LLC. Our passion for carpentry and home improvement shows in our hard work and quality craftsmanship. We consistently strive to make the most efficient use of time, space, and materials without compromising the customers vision. Each and every project is a thought provoking challenge and an opportunity to create a product that brings together the aspects of functionality and aesthetic value that each client desires. Modern or rustic, big or small, we do it all. ',
 							'id'=>'penguin',
 					 ),
@@ -25,7 +25,10 @@ $aboutUs = array(
 <script>
 	$(function() {
 		$('.about_image').hide();
+		$('.about_image').addClass('hide');
 		$('.about_description').hide();
+		$('.about_description').addClass('hide');
+		
 		
 /* 		$('.about_title').click(function(){
 			var id =$(this).attr('id');
@@ -38,12 +41,14 @@ $aboutUs = array(
 			$('#'+id+'_description').width('initial');
 			$('#'+id+'_description').height('initial');
 		}); */
-		$('.about_title').click(function(){
+		$('.about_container').click(function(){
 			var id =$(this).attr('id');
 			id = id.split("_");
 			id = id[0];
 			$('#'+id+'_image').toggle();
+			$('#'+id+'_image').toggleClass('hide');
 			$('#'+id+'_description').toggle();
+			$('#'+id+'_description').toggleClass('hide');
 		});
 	});
 </script>
