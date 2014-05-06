@@ -5,6 +5,7 @@ include 'services_array.php';?>
 	<img src = "img/ham.png" id = "menuHam" alt = "Description of image"/>
 		<h1 id = "main_title" class = "center">Get an estimate</h1>
 		<section id = "estimate_form_holder">
+			<?if(isset($_POST[email])){print('<p class = "green large">Your question has been submitted.</p>');}?>
 			<form id = "estimate_form" action="estimate.php" method="post">
 				<fieldset>
 					<p>

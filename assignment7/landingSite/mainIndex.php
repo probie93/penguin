@@ -8,8 +8,8 @@
 		</div>
 			<nav class ="main_nav">
 				<ul class = "template_links_holder">
-					<li><a href ="assets/Scenarios(Interviewer).pdf">Interviewee Test Questions</a></li>
-					<li><a href ="assets/Scenarios(Tester).pdf">Interviewer Cheat Sheet</a></li>
+					<li><a href ="documentSpec/CS142UsabilityQuestions.docx">Interviewee Test Questions</a></li>
+					<li><a href ="documentSpec/Final.docx">Document Spec</a></li>
 				</ul>
 			</nav>
 	<div class ="clear"></div>
@@ -39,7 +39,7 @@
 		<p class ="video_title">Test Case 1</p>
 		<div class = "small_video">
 			<video class = "small_video_iframe" width="320" height="240" controls>
-				  <source src="assets/WebUseTest1.mp4" type="video/mp4">
+				  <source src="assets/ArtWoman.mov">
 				  Your browser does not support the video tag.
 			</video>
 			<ul class = "link_holder">
@@ -52,7 +52,7 @@
 		<p class ="video_title">Test Case 2</p>
 		<div class = "small_video">
 			<video class = "small_video_iframe" width="320" height="240" controls>
-				  <source src="assets/WebTestWith ArtGirl.mp4" type="video/mp4">
+				  <source src="assets/BeniahWithAudio.mov">
 				  Your browser does not support the video tag.
 			</video>
 			<ul class = "link_holder">
@@ -70,7 +70,7 @@
 
 		<div class = "small_video">
 			<video class = "small_video_iframe" width="320" height="240" controls>
-				  <source src="assets/Griff.mov" type="video/mp4">
+				  <source src="assets/Griff.mov">
 				  Your browser does not support the video tag.
 			</video>
 			<ul class = "link_holder">
@@ -82,8 +82,8 @@
 	<article id = "video_container4" class = "video_container float_left">
 		<p class ="video_title">Test Case 2</p>
 		<div class = "small_video">
-			<video class = "small_video_iframe" width="320" height="240" controls>
-				  <source src="assets/WebTestMass.mov" type="video/mp4">
+			<video class = "small_video_iframe" width="320" src="assets/WebTestMass.mov" height="240" controls>
+				  <source src="assets/WebTestMass.mov">
 				  Your browser does not support the video tag.
 			</video>
 			<ul class = "link_holder">

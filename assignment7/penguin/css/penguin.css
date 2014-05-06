@@ -419,7 +419,7 @@ form#estimate_form fieldset{
 	background-color: rgba(229, 233, 240, .7);
 	}
 	body#home img.show_off_image{
-		width:300px%;
+		width:300px;
 		height:250px;
 	}
 	img#main_image{
@@ -430,7 +430,6 @@ form#estimate_form fieldset{
 		display: none;
 	}
 	#menuHam{
-		position:reletive;
 		display:block;
 		float: right;
 	}
