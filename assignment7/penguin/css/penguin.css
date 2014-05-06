@@ -115,43 +115,9 @@ section#main_container{
 	box-shadow: 5px 5px 2px 5px #737373;
 	background-color: rgba(229, 233, 240, .7);
 }
-h2#logo_penguin{
-	display: inline-block;
-	position: absolute;
-	left: 57%;
-	top: 3%;
-	-moz-transform: rotate(-15deg);
-	-webkit-transform: rotate(-15deg);
-	-o-transform: rotate(-15deg);
-	-ms-transform: rotate(-15deg);
-	transform: rotate(-15deg);
-}
-h3#logo_home{
-	display: inline-block;
-	position: absolute;
-	left: 51%;
-	top: 6%;
-	-moz-transform: rotate(-15deg);
-	-webkit-transform: rotate(-15deg);
-	-o-transform: rotate(-15deg);
-	-ms-transform: rotate(-15deg);
-	transform: rotate(-15deg);
-}
-
-img#main_roof{
-	position: absolute;
-	left: 51%;
-	top: 3%;
-	-moz-transform: rotate(-15deg);
-	-webkit-transform: rotate(-15deg);
-	-o-transform: rotate(-15deg);
-	-ms-transform: rotate(-15deg);
-	transform: rotate(-15deg);
-}
 img#main_image{
 	height:200px;
 	width:600px;
-	margin:auto;
 	display:block;
 	border-radius:25px;
 }
@@ -174,7 +140,7 @@ body#home section.show_off_container{
 }
 body#home img.show_off_image{
 	width:100%;
-	height:auto;
+	height:250px;
 }
 body#home h3.show_off_title{
 	text-align:center;
@@ -201,7 +167,7 @@ body#services section.service_container{
 }
 body#services img.service_image{
 	width:33%;
-	height:auto;
+	height:200px;
 }
 body#services h3.service_title{
 	width:63%;
