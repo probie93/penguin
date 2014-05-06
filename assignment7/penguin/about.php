@@ -105,6 +105,7 @@ $aboutUs = array(
   google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 <section id = "main_container">
+	<img src = "img/ham.png" id = "menuHam" alt = "Description of image"/>
 	<h1 id = "main_title" class = "center">About Us</h1>
 	<article id = "about_us_holder">
 		

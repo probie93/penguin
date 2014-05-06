@@ -20,7 +20,9 @@ include 'includes/header.php'?>
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 <section id = "main_container">
+	<img src = "img/ham.png" id = "menuHam" alt = "Description of image"/>
 	<h1 id = "main_title" class = "center">Contact Us</h1>
+	<?if(isset($_POST[email])){print('<p class = "green large">Your question has been submitted.</p>');}?>
 		<section id = "contact_container">
 			<h2>Contact:</h2>
 			<div id = "social_contact_holder">
@@ -74,7 +76,7 @@ include 'includes/header.php'?>
 					</p>
 					<p>
 						<label for="specifications">Specifications:</label><br>
-						<textarea rows="4" cols="50" id="specifications" name="specifications" placeholder = "Enter any specific requirements"></textarea>
+						<textarea rows="4" cols="30" id="specifications" name="specifications" placeholder = "Enter any specific requirements"></textarea>
 					</p>
 				</fieldset>
 				<fieldset>

@@ -1,7 +1,8 @@
 <? $page = basename(__FILE__, '.php'); 
 include 'includes/header.php';
 include 'services_array.php';?>
-	<section id = "main_container">	
+	<section id = "main_container">
+	<img src = "img/ham.png" id = "menuHam" alt = "Description of image"/>
 		<h1 id = "main_title" class = "center">Get an estimate</h1>
 		<section id = "estimate_form_holder">
 			<form id = "estimate_form" action="estimate.php" method="post">
@@ -32,7 +33,7 @@ include 'services_array.php';?>
 					</p>
 					<p>
 						<label for="question">Comments:</label><br>
-						<textarea rows="4" cols="50" id="question" name="question" placeholder = "Enter your question here"></textarea>
+						<textarea rows="4" cols="30" id="question" name="question" placeholder = "Enter your question here"></textarea>
 					</p>
 				</fieldset>
 				<fieldset>

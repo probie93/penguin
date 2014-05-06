@@ -3,6 +3,7 @@ include 'includes/header.php'?>
 <?include 'services_array.php';
 ?>
 <section id = "main_container">
+	<img src = "img/ham.png" id = "menuHam" alt = "Description of image"/>
 	<h1 id = "main_title" class = "center">Services</h1>
 	<article id = "services_holder">
 		

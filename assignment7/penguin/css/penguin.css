@@ -104,6 +104,12 @@ p #menu_phone{
 p #menu_phone:hover{
 	color:white;
 }
+#menuHam
+{
+	display:none;
+	width:50px;
+	height:50px;
+}
 /**************************************************************************
                         Main Style Shared Across Pages
 **************************************************************************/
@@ -290,20 +296,12 @@ body#testimonials section.testimonial_container{
 	border:black solid 1px;
 	background-color: rgba(229, 233, 240, .7);
 }
-body#testimonials img.testimonial_image{
-	width:33%;
-	height:auto;
-}
 body#testimonials h3.testimonial_title{
-	width:63%;
 	text-align:center;
-	float:left;
 }
 body#testimonials p.testimonial_description{
-	width:60%;
 	padding:1em;
 	padding-top:0em;
-	float:left;
 	margin:0em;
 }
 /**************************************************************************
@@ -382,6 +380,12 @@ form#estimate_form fieldset{
 .text_left{
 	text-align:left;
 }
+.green{
+	color:green;
+}
+.large{
+	font-size:2em;
+}
 /**************************************************************************
                                Responsive Design
 **************************************************************************/
@@ -401,6 +405,9 @@ form#estimate_form fieldset{
 	}
 }
 @media screen and (max-width: 1000px){
+	body{
+		min-width:500px;
+	}
 	body#home article#show_off_holder{	
 		width:96%;
 		float:none;
@@ -415,11 +422,32 @@ form#estimate_form fieldset{
 		width:300px%;
 		height:250px;
 	}
-	#img#main_image{
+	img#main_image{
 		width:300px;
 	}
 	header#header{
 		width: 0px;
 		display: none;
+	}
+	#menuHam{
+		position:reletive;
+		display:block;
+		float: right;
+	}
+	header#header{
+	position:absolute;
+	width:200px;
+	}
+	body#services article#services_holder{
+		width:96%;
+	}
+	#service_area,section#address_container,section#contact_container,section#contact_form_holder{
+		width:96%;
+	}
+	.about_container{
+		width:96%;
+	}
+	body#testimonials article#testimonials_holder{
+		width:96%;
 	}
 }

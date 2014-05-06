@@ -14,6 +14,7 @@ include 'includes/header.php'?>
  });
 </script>
 <section id = "main_container">
+	<img src = "img/ham.png" id = "menuHam" alt = "Description of image"/>
 	<img src = "img/PenGuinTextAnimal.png" id = "main_image" alt = "Description of image"/>
 	<p class = "main_description">Committed to providing clients with a service that they cannot buy in a store, Penguin encourages client involvement in the design, build process. We provide high quality workmanship that will make your home improvement goals a reality. A locally owned, fully insured Vermont based business offering honest discussion and FREE estimates. </p>	
 	<article id = "show_off_holder">

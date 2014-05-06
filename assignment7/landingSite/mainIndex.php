@@ -23,14 +23,14 @@
 		Followed by a second set of test that we did after we made our site. These were the biggest changes we made between the two.</p>
 		<p class ="description_title">Here are some things that we chose to fix after our first round of usability testing.</p>
 		<ol class = "description_points">
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>Make eveything very clear. Make the contact info more prominent</li>
+			<li>Power of image in this kind of business</li>
+			<li>All of the important info is above the fold.</li>
 		</ol>
 		<p class ="description_title">Here are our personal opinions on what needed to be changed (not backed up by usability testing)</p>
 		<ol class = "description_points">
 				<li>Get rid of the grainy background the you can see when you use the site in chrome.</li>
+				<li>Make the menu bigger and more prominent</li>
 		</ol>
 </article>
 <h1 class ="round">ROUND 1</h1>
@@ -70,7 +70,7 @@
 
 		<div class = "small_video">
 			<video class = "small_video_iframe" width="320" height="240" controls>
-				  <source src="assets/GirlWithGlasses.mp4" type="video/mp4">
+				  <source src="assets/Griff.mov" type="video/mp4">
 				  Your browser does not support the video tag.
 			</video>
 			<ul class = "link_holder">
@@ -83,7 +83,7 @@
 		<p class ="video_title">Test Case 2</p>
 		<div class = "small_video">
 			<video class = "small_video_iframe" width="320" height="240" controls>
-				  <source src="assets/Webtest4.mp4" type="video/mp4">
+				  <source src="assets/WebTestMass.mov" type="video/mp4">
 				  Your browser does not support the video tag.
 			</video>
 			<ul class = "link_holder">
