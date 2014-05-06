@@ -10,13 +10,13 @@ $aboutUs = array(
 					 ),
 				2 => array(
 							'title'=>'Liam Mahabir',
-							'image'=>'placeholder.jpg',
+							'image'=>'Liam.jpg',
 							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
 							'id'=>'liam',
 					),
 				3 => array(
 							'title'=>'Zach Gavell',
-							'image'=>'placeholder.jpg',
+							'image'=>'Zach.jpg',
 							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
 							'id'=>'zach',
 					 ),
