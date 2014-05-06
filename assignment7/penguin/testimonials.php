@@ -5,32 +5,32 @@ $testimonials = array(
 				1 => array(
 							'title'=>'Testimonial',
 							'image'=>'placeholder.jpg',
-							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
+							'description'=>'I hired Penguin to build a shed for my garden tools. The quality was great, the price was lower than expected, and best of all, it was custom-made for me. –Suzie from Williston',
 					 ),
 				2 => array(
 							'title'=>'Testimonial',
 							'image'=>'placeholder.jpg',
-							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
+							'description'=>'I commissioned them to make me some kitchen cabinets and I love them. The quality of the materials is matched only by the quality of the craftsmanship. -Bill from Burlington',
 					 ),
 				3 => array(
 							'title'=>'Testimonial',
 							'image'=>'placeholder.jpg',
-							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
+							'description'=>'-My custom made shelving unit is great. They did it quickly and it’s very solid. Well done! -Jim from Burlington',
 					 ),
 				4 => array(
 							'title'=>'Testimonial',
 							'image'=>'placeholder.jpg',
-							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
+							'description'=>'They came by my place to consider making a deck. The estimate was free and a reasonable price.  A month later, my new deck is my favorite place to sit. –Ellen from Essex',
 					 ),
 				5 => array(
 							'title'=>'Testimonial',
 							'image'=>'placeholder.jpg',
-							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
+							'description'=>'They are very knowledgeable and professional. The work is sold. –Bob from Essex',
 					 ),
 				6 => array(
 							'title'=>'Testimonial',
 							'image'=>'placeholder.jpg',
-							'description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat massa sed dolor consectetur, eu dapibus eros interdum. Sed vel magna tempor, pharetra est sed, tincidunt urna. Cras et velit imperdiet magna lobortis',
+							'description'=>'I love my custom-made table. I will definitely hire them for my next home improvement project. –Jill from Charlotte',
 					 ),
 			);
 ?>
